@@ -32,7 +32,66 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+.card {
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+  border: 1px solid rgb(0, 0, 0, 0.3);
+  border-radius: 8px;
+  text-align: start;
+  /* margin-inline: auto; */
+  /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); */
+}
+
+button {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.d-block {
+  display: block;
+  margin-inline: auto;
+}
+label{
+  display: block;
+  margin:15px;
+}
+label input{
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid black
+}
+
+.padding {
+  padding: 7px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #61dafb;
+}
+
+/* .card h2 {
+  font-size: 18px;
+  color: #333;
+} */
+
+/* .card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 12px;
+} */
+
+/* .card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+} */
